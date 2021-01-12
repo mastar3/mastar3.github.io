@@ -94,6 +94,31 @@ a.white {
 	color: #fff;
 }
 
+.caf-install {
+	background: transparent;
+	border: 0;
+}
+
+.caf-install:hover {
+	background: transparent;
+}
+
+.label-caf {
+	display: inline-block;
+	border: 0;
+	border-radius: 2rem;
+	background-color: transparent;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.label-caf:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
 .testimonial-text {
 	font: italic 400 1rem/1.5rem "Open Sans", sans-serif;
 }

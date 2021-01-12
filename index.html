@@ -115,7 +115,31 @@
                         <div class="text-container">
                             <a class="btn-solid-lg page-scroll w-100 text-center" target="_blank" href="/cgi-bin/timetable.cgi"><i class="fas fa-clipboard-list"></i> Розклад занять</a>
                             <a class="btn-solid-lg page-scroll w-100 text-center" target="_blank" href="/cgi-bin/shell.cgi?n=999"><i class="fas fa-desktop"></i> ПС - Студент WEB</a>
-                            <a class="btn-solid-lg page-scroll w-100 text-center" target="_blank" href="/setup-PS_Kafedra.exe"><i class="fas fa-download"></i> ПС - Кафедра (Інсталяція)</a>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    Після завантаження слід запустити setup-PS_Kafedra.exe. Під час першого запуску введіть IP адресу сервера: 109.87.215.169 для зовнішньої мережі або 10.1.54.4 для внутрішньої мережі закладу
+                                     
+                                </div>
+                            </div>
+                            
+                            <div id="accordion" class="btn-solid-lg w-100 caf-install">
+                                <div class="card caf-install">
+                                    <div class="card-header caf-install" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="label-caf w-100" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <i class="fas fa-download"></i> ПС - Кафедра (Інсталяція)</a>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body text-center caf-install">
+                                             Після завантаження слід запустити setup-PS_Kafedra.exe. Під час першого запуску введіть IP адресу сервера: 109.87.215.169 для зовнішньої мережі або 10.1.54.4 для внутрішньої мережі закладу <br>
+                                                <a href="/setup-PS_Kafedra.exe">Завантажити</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <a class="btn-solid-lg page-scroll w-100 text-center" target="_blank" href="/cgi-bin/kaf.cgi?n=999"><i class="fas fa-user"></i> ПС - Кафедра</a>
                             <a class="btn-solid-lg page-scroll w-100 text-center" target="_blank" href="/cgi-bin/kaf.cgi?n=999&t=98"><i class="fas fa-desktop"></i> ПС - журнал успішності &shy;(викладачі)</a>
                             <a class="btn-solid-lg page-scroll w-100 text-center" target="_blank" href="/cgi-bin/trainees.cgi?show=a"><i class="fas fa-handshake"></i> Практика та стажування</a>
@@ -133,6 +157,8 @@
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
+
+
 
     <!-- Footer -->
     <div class="footer">
