@@ -803,7 +803,8 @@ input[type='checkbox'] {
 
 .leo{
 	padding-top: 5rem;
-	filter: invert(var(--value, 100%))
+	filter: invert(var(--value, 100%));
+	width: 200%;
 }
 
 /****************************/
